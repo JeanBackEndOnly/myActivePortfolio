@@ -60,7 +60,6 @@ about_me_button.addEventListener('click', function() {
 home_button.addEventListener('click', function() {
     display_margin_projects.style.display = 'none';
     display_margin.style.display = 'none';
-    document.getElementById('home-header').style.display = 'none';
     home_button.style.color = 'rgb(255, 93, 93)';
     home_button.style.borderBottom = 'solid 2px rgb(255, 93, 93)';
 
@@ -82,7 +81,6 @@ home_button.addEventListener('click', function() {
 skills_button.addEventListener('click', function() {
     display_margin_projects.style.display = 'none';
     display_margin.style.display = 'none';
-    document.getElementById('home-header').style.display = 'none';
     skills_button.style.color = 'rgb(255, 93, 93)';
     skills_button.style.borderBottom = 'solid 2px rgb(255, 93, 93)';
 
@@ -104,7 +102,6 @@ skills_button.addEventListener('click', function() {
 certifications_button.addEventListener('click', function() {
     display_margin_projects.style.display = 'none';
     display_margin.style.display = 'none';
-    document.getElementById('home-header').style.display = 'none';
     certifications_button.style.color = 'rgb(255, 93, 93)';
     certifications_button.style.borderBottom = 'solid 2px rgb(255, 93, 93)';
 
@@ -126,7 +123,6 @@ certifications_button.addEventListener('click', function() {
 contact_button.addEventListener('click', function() {
     display_margin_projects.style.display = 'none';
     display_margin.style.display = 'none';
-    document.getElementById('home-header').style.display = 'none';
     contact_button.style.color = 'rgb(255, 93, 93)';
     contact_button.style.borderBottom = 'solid 2px rgb(255, 93, 93)';
 

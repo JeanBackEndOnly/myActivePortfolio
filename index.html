@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <div class="col-md-12 col-12 align-items-center justify-content-center pt-3 header d-flex" id="home-header">
-        <div class="col-md-10 col-11 p-3 d-flex align-items-center justiify-content-center header-color mb-5 rounded border">
+    <div class="col-md-12 col-12 align-items-center justify-content-center pt-3 mb-5 header d-flex" id="home-header">
+        <div class="col-md-10 col-11 p-3 d-flex align-items-center justiify-content-center header-color rounded border">
             <div class="col-md-4 col-5 d-flex align-items-center justify-content-center">
                 <strong class="fs-4"><span class="text-danger">Jean</span><span class="text-white">Portfolio</span></strong>
             </div>
@@ -36,11 +36,11 @@
             </div>
         </div>
     </div>
-    <div class="contents d-flex flex-column col-md-12 col-12 px-3">
+    <div class="contents d-flex flex-column col-md-12 col-12">
         <!-- HOME -->
-        <div id="home" class="col-md-12 col-12 d-flex align-items-center justify-content-center">
+        <div id="home" class="col-md-12 col-12 d-flex align-items-start justify-content-center ">
             <div class="col-md-11 d-flex col-11 flex-wrap-me">
-                <div class="col-md-7 col-12 d-dlex flex-column">
+                <div class="col-md-8 col-12 d-dlex flex-column">
                     <div class="col-md-12">
                         <strong class="text-danger fs-4 w-100">Hello, I'm</strong>
                     </div>
@@ -80,7 +80,7 @@
                     </div>
                 </div> 
 
-                <div class="col-md-5 col-12 d-flex align-items-center justify-content-center">
+                <div class="col-md-4 col-12 d-flex align-items-center justify-content-center">
                     <strong>
                         <i class="fa-brands fa-php mb-5 media-fa-code text-light font-50"></i>
                     </strong>
@@ -88,7 +88,7 @@
             </div>
         </div> 
         <!-- ABOUT ME -->
-        <div class="col-md-12 col-12 d-flex align-items-start justify-content-center about-me-media-margin" id="About_me">
+        <div class="col-md-12 col-12 d-flex align-items-start justify-content-center about-me-media-margin mt-5" id="About_me">
             <div class="col-md-11 d-flex flex-column align-items-start justify-content-center">
                 <div class="col-md-12 margin-top" id="display-margin" style="display:none;"></div>
                 <strong class="w-100 text-center fs-3 margin-top-media"><span class="text-light">ABOUT</span> <span class="text-danger">ME</span></strong>
@@ -192,43 +192,128 @@
             </div>
         </div>
         <!-- PROJECTS -->
-        <div class="col-md-12 col-12" id="projects">
-            <div class="col-md-12 d-flex flex-column align-items-start justify-content-center">
+        <div class="col-md-12 col-12 d-flex align-items-start justify-content-center projects-height mt-5" id="projects">
+            <div class="col-md-11 col-11 d-flex flex-column align-items-center justify-content-center">
                 <div class="col-md-12 display-margin-projects" id="display-margin-projects" style="display:none;"></div>
                 <strong class="w-100 text-center fs-3 margin-top-media"><span class="text-light">My</span> <span class="text-danger">Projects</span></strong>
-                <div class="row col-md-12 mt-5">
-                    <div class="col-md-4">
-                        <div class="d-flex align-items-center justify-content-center flex-column border shadow rounded">
-                            <h1>hello php</h1>
+                <div class="row col-md-12 col-11 d-flex align-items-start justify-content-center mt-5">
+                    <!-- Pueri Culture -->
+                    <div class="col-md-4 col-12">
+                        <div class="hover-project d-flex p-3 flex-column align-items-center justify-content-start bg-content min-project-height flex-column border shadow rounded">
+                            <div class="col-md-11 col-11 position-relative">
+                                <a style="display: none;" href="https://github.com/JeanBackEndOnly/HRZCPuerieOrg" class="rounded shadow border-light col-md-12 align-items-center h-100 justify-content-center hover-link">
+                                    <strong class="btn btn-info rounded fw-bold px-4">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></strong>
+                                </a>
+                                <img src="assets/images/pueri.png" class="w-100 max-height-img rounded shadow border-light" alt="HR dashaboard">
+                            </div>
+                            <div class="col-md-11 col-11 mt-2">
+                                <strong class="w-100 fs-4 text-start text-danger">Human Resource Information System</strong>
+                            </div>
+                            <div class="col-md-11 col-11 mt-1 mb-3">
+                                <p class="text-light">A system for Zamboanga Puericulture Center that <br> 
+                                    focuses on Human Resource. Actors of admin, Hr and employees.</p>
+                            </div>
+                            <div class="col-md-11 col-11 d-flex flex-wrap-me gap-2">
+                                <strong class="w-100 text-start text-light">Tech Stack Used:</strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-html5"></i></strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-css3-alt"></i></strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-php"></i></strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-js"></i></strong>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="d-flex align-items-center justify-content-center flex-column border shadow rounded">
-                            <h1>hello php</h1>
+                    <!-- ZPPSU Evaluation -->
+                    <div class="col-md-4 col-12">
+                        <div class="hover-project d-flex p-3 flex-column align-items-center justify-content-start bg-content min-project-height flex-column border shadow rounded">
+                            <div class="col-md-11 col-11 position-relative">
+                                <a style="display: none;" href="https://github.com/JeanBackEndOnly/Zppsu-Evaluation-System" class="rounded shadow border-light col-md-12 align-items-center h-100 justify-content-center hover-link">
+                                    <strong class="btn btn-info rounded fw-bold px-4">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></strong>
+                                </a>
+                                <img src="assets/images/eval.png" class="w-100 max-height-img rounded shadow border-light" alt="HR dashaboard">
+                            </div>
+                            <div class="col-md-11 col-11 mt-2">
+                                <strong class="w-100 fs-4 text-start text-danger">Evaluation Management System</strong>
+                            </div>
+                            <div class="col-md-11 col-11 mt-1 mb-3">
+                                <p class="text-light">A system for Zamboanga Polytechnic <br>  State University 
+                                    focuses on faculties evaluation.<br> Actors of  Admin, Faculty, Student, and department head</p>
+                            </div>
+                            <div class="col-md-11 col-11 d-flex flex-wrap-me gap-2">
+                                <strong class="w-100 text-start text-light">Tech Stack Used:</strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-html5"></i></strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-css3-alt"></i></strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-php"></i></strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-js"></i></strong>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="d-flex align-items-center justify-content-center flex-column border shadow rounded">
-                            <h1>hello php</h1>
+                    <!-- OAMS -->
+                    <div class="col-md-4 col-12">
+                        <div class="hover-project d-flex p-3 flex-column align-items-center justify-content-start bg-content min-project-height flex-column border shadow rounded">
+                            <div class="col-md-11 col-11 position-relative">
+                                <a style="display: none;" href="https://github.com/JeanBackEndOnly/OAMS-ZPPSU" class="rounded shadow border-light col-md-12 align-items-center h-100 justify-content-center hover-link">
+                                    <strong class="btn btn-info rounded fw-bold px-4">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></strong>
+                                </a>
+                                <img src="assets/images/oams.png" class="w-100 max-height-img rounded shadow border-light" alt="HR dashaboard">
+                            </div>
+                            <div class="col-md-11 col-11 mt-2">
+                                <strong class="w-100 fs-4 text-start text-danger">Online Accreditation Management System</strong>
+                            </div>
+                            <div class="col-md-11 col-11 mt-1 mb-3">
+                                <p class="text-light">A system for Zamboanga Polytechnic <br>  State University 
+                                    focuses on Department Accreditation. Actors of admin, department head, program head and faculty.</p>
+                            </div>
+                            <div class="col-md-11 col-11 d-flex flex-wrap-me gap-2">
+                                <strong class="w-100 text-start text-light">Tech Stack Used:</strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-html5"></i></strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-css3-alt"></i></strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-php"></i></strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-js"></i></strong>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- KF Fitness Gym -->
+                    <div class="col-md-4 col-12 mt-3">
+                        <div class="hover-project d-flex p-3 flex-column align-items-center justify-content-start bg-content min-project-height flex-column border shadow rounded">
+                            <div class="col-md-11 col-11 position-relative">
+                                <a style="display: none;" href="https://github.com/JeanBackEndOnly/kf_fittrack" class="rounded shadow border-light col-md-12 align-items-center h-100 justify-content-center hover-link">
+                                    <strong class="btn btn-info rounded fw-bold px-4">View Project <i class="fa-solid fa-arrow-up-right-from-square"></i></strong>
+                                </a>
+                                <img src="assets/images/gym.png" class="w-100 max-height-img rounded shadow border-light" alt="HR dashaboard">
+                            </div>
+                            <div class="col-md-11 col-11 mt-2">
+                                <strong class="w-100 fs-4 text-start text-danger">Gym Management System</strong>
+                            </div>
+                            <div class="col-md-11 col-11 mt-1 mb-3">
+                                <p class="text-light">A system for KF Fitness Gym <br> 
+                                    focuses on Contract and membership. the very <br> first system of mine.</p>
+                            </div>
+                            <div class="col-md-11 col-11 d-flex flex-wrap-me gap-2">
+                                <strong class="w-100 text-start text-light">Tech Stack Used:</strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-html5"></i></strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-css3-alt"></i></strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-php"></i></strong>
+                                <strong class="circle-tech d-flex align-items-center justify-content-center"><i class="fs-3 fa-brands fa-js"></i></strong>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- SKILLS -->
-        <div class="col-md-12 col-12 pt-5" id="skills">
+        <div class="col-md-12 col-12 pt-5 mt-5" id="skills">
             <div class="col-md-12 d-flex pt-4">
                 <h1>hello this is my skills</h1>
             </div>
         </div>
         <!-- CERTIFICATIONS -->
-        <div class="col-md-12 col-12 pt-5" id="certifications">
+        <div class="col-md-12 col-12 pt-5 mt-5" id="certifications">
             <div class="col-md-12 d-flex pt-4">
                 <h1>hello this is my certifications</h1>
             </div>
         </div>
         <!-- CONTACT -->
-        <div class="col-md-12 col-12 pt-5" id="contact">
+        <div class="col-md-12 col-12 pt-5 mt-5" id="contact">
             <div class="col-md-12 d-flex pt-4">
                 <h1>hello this is my contact</h1>
             </div>

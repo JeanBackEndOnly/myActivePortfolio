@@ -94,4 +94,10 @@ a{
     .display-none-media{
         display: none !important;
     }
+    .media-font-5{
+        font-size: 3rem;
+    }
+    .media-font-3{
+        font-size: 2rem;
+    }
 }

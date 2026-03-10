@@ -32,30 +32,45 @@ const display_margin_skills_media = document.getElementById('display-margin-skil
 const display_margin_contact_media = document.getElementById('display-margin-contact');
 
 projects_button_media.addEventListener('click', function() {
+    display_flex_media.style.display = 'none';
+    burger_display.style.display = 'flex';
+    x_display.style.display = 'none';
     display_margin_projects_media.style.display = 'flex';
     display_margin_skills_media.style.display = 'none';
     display_margin_contact_media.style.display = 'none';
     display_margin_media.style.display = 'none';
 });
 about_me_button_media.addEventListener('click', function() {
+    display_flex_media.style.display = 'none';
+    burger_display.style.display = 'flex';
+    x_display.style.display = 'none';
     display_margin_projects_media.style.display = 'none';
     display_margin_skills_media.style.display = 'none';
     display_margin_contact_media.style.display = 'none';
     display_margin_media.style.display = 'flex';
 });
 home_button_media.addEventListener('click', function() {
+    display_flex_media.style.display = 'none';
+    burger_display.style.display = 'flex';
+    x_display.style.display = 'none';
     display_margin_projects_media.style.display = 'none';
     display_margin_skills_media.style.display = 'none';
     display_margin_contact_media.style.display = 'none';
     display_margin_media.style.display = 'none';
 });
 skills_button_media.addEventListener('click', function() {
+    display_flex_media.style.display = 'none';
+    burger_display.style.display = 'flex';
+    x_display.style.display = 'none';
     display_margin_projects_media.style.display = 'none';
     display_margin_skills_media.style.display = 'flex';
     display_margin_contact_media.style.display = 'none';
     display_margin_media.style.display = 'none';
 });
 contact_button_media.addEventListener('click', function() {
+    display_flex_media.style.display = 'none';
+    burger_display.style.display = 'flex';
+    x_display.style.display = 'none';
     display_margin_projects_media.style.display = 'none';
     display_margin_skills_media.style.display = 'none';
     display_margin_media.style.display = 'none';

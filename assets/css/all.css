@@ -84,6 +84,12 @@ a{
     color: rgb(255, 93, 93) !important;
     border-bottom: solid 2px rgb(255, 93, 93) !important;
 }
+.nav-media{
+    color: #fff;
+}
+.nav-media:hover{
+    color: rgb(255, 93, 93) !important;s
+}
 .a-link:hover{
     color: rgb(255, 93, 93) !important;
 }
@@ -99,5 +105,14 @@ a{
     }
     .media-font-3{
         font-size: 2rem;
+    }
+    #display-flex-media{
+        position: absolute;
+        top: 0;
+        right: 1rem;
+        transform: translateY(4.5rem);
+    }
+    #burger-display, #x-display{
+        transition: 1s ease-in-out;
     }
 }

@@ -20,6 +20,17 @@ x_display.addEventListener('click', function(){
     }
 });
 
+// CV contents ================================================================
+const x_display_cv = document.getElementById('x-display-cv');
+const display_no_cv = document.getElementById('display-no-cv');
+const display_no_cv_yet = document.getElementById('display-no-cv-yet');
+display_no_cv_yet.addEventListener('click', function(){
+    display_no_cv.style.display = 'flex';
+});
+x_display_cv.addEventListener('click', function(){
+    display_no_cv.style.display = 'none';
+});
+
 // for header ==================================================================
 const about_me_button_media = document.getElementById('display-about_me-media');
 const projects_button_media = document.getElementById('display-projects-media');

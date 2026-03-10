@@ -93,6 +93,29 @@ a{
 .a-link:hover{
     color: rgb(255, 93, 93) !important;
 }
+#About_me{
+    position: relative;
+}
+.display-no-cv{
+    transition: 0.5s ease;
+    animation-name: fade_animation;
+    animation-duration: 1s;
+}
+#x-display-cv{
+    transform: translate(0.7rem, 0.4rem);
+}
+@keyframes fade_animation {
+    from{
+        opacity: 0;
+    }   
+    to{
+        opacity: 1;
+    }
+}
+.display-no-cv{
+    top: 50%;
+    left: 1rem;
+}
 @media(max-width: 780px){
     .burger{
         display: flex !important;

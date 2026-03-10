@@ -10,6 +10,7 @@ const display_margin_skills = document.getElementById('display-margin-skills');
 const display_margin_contact = document.getElementById('display-margin-contact');
 
 display_projects.addEventListener('click', function(){
+    display_margin_projects.style.display = 'flex';
     projects_button.style.color = 'rgb(255, 93, 93)';
     projects_button.style.borderBottom = 'solid 2px rgb(255, 93, 93)';
 
